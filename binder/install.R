@@ -1,2 +1,5 @@
 install.packages("ggplot2")
 install.packages("cowplot")
+install.packages("ggridges")
+install.packages("tidyr")
+install.packages("dplyr")

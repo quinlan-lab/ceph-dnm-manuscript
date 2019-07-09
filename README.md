@@ -38,25 +38,29 @@ all_dnms,alpha,autosomal_callable_fraction,autosomal_dnms,dad_age,dad_dnms,dad_d
 
 #### Dependencies (if **not** using the Binder environment provided above)
 
-#### For `python 3.6.8`:
+#### For `python 3.7.3`:
 
-`scipy v1.1.0`
+`scipy v1.2.1`
 
 `seaborn v0.9.0`
 
 `matplotlib v2.2.3`
 
-`numpy v1.14.3`
+`numpy v1.16.2`
 
-`pandas 0.23.0`
+`pandas 0.24.2`
 
 `statsmodels v0.9.0`
 
-#### For `R 3.5.1`:
+#### For `R 3.4.4`:
 
 `ggplot2 v3.1.0`
 
 `cowplot v0.9.3`
+
+`ggridges v0.5.1`
+
+`viridis v0.5.1`
 
 #### Installation (if **not** using the Binder environment provided above)
 

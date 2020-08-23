@@ -16,7 +16,7 @@ To mitigate compatability/version issues, we have **packaged all notebooks into 
 
 The files included in the `data` directory are organized as follows:
 
-`second_gen.dnms.txt` and `third_gen.dnms.txt` contain a row for every DNM identified in the second or third generation, respectively. `gonosomal.dnms.txt` and `post-pgcs.dnms.txt` contain a row for every DNM identified as being gonosomal or a post-PGCS mosaic mutation, respectively. Each row in these files is formatted like a heavily annotated BED entry, where the first three columns indicate the chromosome, start position, and end position of the variant, followed by additional columns with per-variant information, such as the reference and alternate alleles, depth and genotype qualities in the proband and parents, etc.
+`second_gen.dnms.txt` and `third_gen.dnms.txt` contain a row for every DNM identified in the second or third generation, respectively. `gonosomal.dnms.txt` and `post-pgcs.dnms.txt` contain a row for every DNM identified as being gonosomal or a post-PGCS mosaic mutation, respectively. Each row in these files is formatted like a heavily annotated BED entry, where the first three columns indicate the chromosome, start position, and end position of the variant, followed by additional columns with per-variant information, such as the reference and alternate alleles, depth and genotype qualities in the proband and parents, etc. **All coordinates are with respect to GRCh37**.
 
 For example, the first few lines of `second_gen.dnms.txt` are shown below:
 
